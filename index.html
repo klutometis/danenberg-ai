@@ -5,28 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peter Danenberg | danenberg.ai</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 5%;
             text-align: center;
-            margin: 5%;
         }
-        img {
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        figure {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh; /* Scales image and caption */
             max-width: 80%;
-            height: auto;
-            margin-top: 50px;
         }
+
+        img {
+            max-height: 75%;  /* Scales relative to viewport */
+            max-width: 100%;
+            height: auto;
+            width: auto;
+            object-fit: contain;  /* Prevents cropping */
+        }
+
         figcaption {
             font-size: 1.2em;
             margin-top: 10px;
-            font-style: italic;
         }
     </style>
 </head>
 <body>
-    <h1>Peter Danenberg</h1>
     <figure>
-        <img src="assets/gemini-self-portrait.jpg" alt="Gemini Self-Portrait">
-        <figcaption>Figure 1: Gemini generates a self-portrait in LEGO.</figcaption>
+        <img src="assets/gemini-self-portrait.png" alt="Gemini Self-Portrait">
+        <figcaption><strong>Figure 1</strong>: “Gemini, generate a self-portrait in LEGO.”</figcaption>
     </figure>
 </body>
 </html>
