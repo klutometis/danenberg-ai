@@ -2,3 +2,4 @@
   for = "/card"
   [headers.values]
     Content-Type = "text/vcard"
+    Content-Disposition = "attachment; filename=peter-danenberg.vcf"
