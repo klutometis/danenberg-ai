@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/card"
+  [headers.values]
+    Content-Type = "text/vcard"
