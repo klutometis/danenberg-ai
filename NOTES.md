@@ -175,6 +175,32 @@ Modern Application: LLMs = sophisticated ψόφος, not true φωνή
 - **Voice**: Academic rigor with personal passion
 - **Universal Theme**: Ancient wisdom about artificial beings applies to modern AI
 
+## Future Enhancements
+
+### Speaking/Talks Archive Page
+**Goal**: Create a comprehensive archive of speaking engagements before they're lost to the Heraclitean stream.
+
+**Tasks:**
+- **Email archaeology**: Use `gmail.py` utility to search for LinkedIn talk mentions and invitations
+- **YouTube artifact gathering**: Collect video recordings, timestamps for key moments
+- **Slide/material recovery**: Gather presentation materials, speaker notes
+- **Event documentation**: Venue details, audience size, event context
+- **Social media archaeology**: Twitter/LinkedIn posts, audience reactions, photos
+- **Talk summaries**: Key themes, audience questions, memorable moments  
+- **Impact tracking**: Follow-up conversations, connections made, opportunities generated
+- **Future speaking topics**: Document developed expertise areas for speaking opportunities
+
+**Additional artifacts to consider:**
+- Event websites/conference pages (archive.org backup)
+- Press coverage or write-ups
+- Audience testimonials or feedback
+- Speaking rider/bio for future events
+- Photos from events (professional and candid)
+- Related blog posts or articles inspired by talks
+- Conference networking outcomes
+
+**Technical implementation**: Could be a `/talks` page with Jekyll collections, or a dedicated section with filtering by topic/date.
+
 ---
 
 *Comprehensive documentation of collaborative blog post development, covering technical implementation, philosophical refinement, and editorial decisions made during the process.*
