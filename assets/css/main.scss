@@ -1,0 +1,106 @@
+---
+# Only the main Sass file needs front matter (the dashes are needed)
+---
+
+// Override Minimal Mistakes font variables BEFORE importing
+$global-font-family: 'EB Garamond', serif;
+$header-font-family: 'EB Garamond', serif;
+
+@import 'minimal-mistakes/skins/default'; // skin
+@import 'minimal-mistakes'; // main partials
+
+// Custom fonts - use HTML import instead
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+
+@font-face {
+  font-family: 'GFS Porson';
+  src:
+    url('/assets/fonts/GFSPorson.otf') format('opentype'),
+    url('/assets/fonts/GFSPorson.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Custom Greek styling - simple approach
+.greek {
+  font-family: 'GFS Porson', 'Times New Roman', serif;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+// Target blockquote Greek specifically (this was working)
+blockquote .greek {
+  font-family: 'GFS Porson', 'Times New Roman', serif !important;
+}
+
+// Image treatment - better sizing and visual separation
+figure {
+  margin: 2rem auto;
+  text-align: center;
+
+  img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  figcaption {
+    text-align: center !important;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Standalone images (not in figures) get similar treatment
+.page__content img:not(figure img) {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Increase base font size for better readability
+html {
+  font-size: 18px; // Larger base size
+}
+
+// Override any theme figcaption styling with more specific selectors
+.page__content figcaption,
+.page__content figure figcaption,
+figcaption {
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+// Special styling for the landing page image - make it more prominent
+.page__content > figure:first-child {
+  margin: 4rem auto;
+
+  img {
+    max-width: 80% !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+// Completely hide the footer and header for minimal design
+.page__footer,
+.masthead {
+  display: none !important;
+}
+
+// Also hide any remaining footer elements that might slip through
+.site-footer,
+.page__footer-follow,
+.page__footer-copyright {
+  display: none !important;
+}

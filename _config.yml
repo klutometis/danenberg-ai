@@ -1,0 +1,47 @@
+# Site settings
+title: "Peter Danenberg"
+name: "Peter Danenberg"
+email:
+description:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://danenberg.ai" # the base hostname & protocol for your site
+repository: "klutometis/danenberg-ai"
+
+# Build settings
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+author:
+  name: "Peter Danenberg"
+  avatar: "/assets/img/peter-danenberg.jpg"
+  bio: " "
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/klutometis"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/peterdanenberg"
+    - label: "geminimeetup.ai"
+      url: "http://geminimeetup.ai"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+
+# Remove footer completely
+footer:
+  links: []
+atom_feed:
+  hide: true
+search: false
+
+sass:
+  quiet_deps: true
