@@ -128,7 +128,7 @@ So I checked. Systematically. Every source it cited.
 
 <figure>
   <img src="assets/img/perseus.png" alt="Screenshot from Perseus showing αὐδή">
-  <figcaption><strong>Figure 2</strong>: Allen & Monro's text in Perseus Digital Library showing <span class="greek">αὐδή</span></figcaption>
+  <figcaption><strong>Figure 2</strong>: Allen & Monro’s text in Perseus Digital Library showing <span class="greek">αὐδή</span></figcaption>
 </figure>
 
 **Venetus A manuscript** (via the
@@ -145,7 +145,7 @@ variant listed in the critical apparatus
 
 <figure>
   <img src="assets/img/west.png" alt="Screenshot from West showing αὐδή and no μῦθος variant">
-  <figcaption><strong>Figure 4</strong>: West's critical edition showing <span class="greek">αὐδή</span> with no <span class="greek">μῦθος</span> variant</figcaption>
+  <figcaption><strong>Figure 4</strong>: West’s critical edition showing <span class="greek">αὐδή</span> with no <span class="greek">μῦθος</span> variant</figcaption>
 </figure>
 
 Every single source said the same thing: **<span class="greek">αὐδή</span>**.
@@ -227,7 +227,7 @@ reviews? Research? Analysis?
 
 <figure>
   <img src="assets/img/hephaistos.png" alt="Hephaestus and his golden amphipoloi">
-  <figcaption><strong>Figure 5</strong>: Hephaistos vibe-forging Achilles' armour with LLM-augmented <span class="greek">ἀμφίπολοι</span></figcaption>
+  <figcaption><strong>Figure 5</strong>: Hephaistos vibe-forging Achilles’ armour with LLM-augmented <span class="greek">ἀμφίπολοι</span></figcaption>
 </figure>
 
 Even Hephaistos vibe-wrought Achilles' armor into existence with golden
