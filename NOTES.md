@@ -224,6 +224,40 @@ Go forth and publish, with divine favor at your back!
 
 🏺⚡📜
 
+## Media Integration & Archival Strategy Discussion
+
+### Context
+- User has articles in TODO.md that reference talks and work
+- Current index.md is purposefully minimal/sparse
+- Question: How to integrate media coverage without cluttering the clean design?
+
+### Design Philosophy Established
+- **Front page stays minimal**: User explicitly wants to avoid "cluttering it up with a bunch of crap"
+- **Clean aesthetic is intentional**: Sparse design is a feature, not a bug
+- **Integration should be subtle**: Don't compromise the minimalist approach
+
+### Integration Options Discussed
+1. **Dedicated Media/Press Page**: Separate `media.md` or `press.md` page
+2. **Footer Link**: Small "Media" or "Press" link in site footer
+3. **Author Profile Enhancement**: Add "Press" link to author bio sidebar
+4. **Hidden/Discoverable Page**: Create page but don't prominently link to it
+
+### Archival Strategy (Critical Regardless of Display)
+- **Why Archive**: Link rot, content changes, offline access, legal protection
+- **What to Capture**: PDFs, PNGs, complete HTML pages
+- **Directory Structure**: `assets/archive/media/YYYY/article-name.pdf`
+- **Capture Methods**: Browser "Print to PDF", full-page screenshots, `wget --page-requisites`
+- **Link Strategy**: `[Article Title](original-url) - *Publication* ([archived PDF](path))`
+
+### Implementation Approach
+- **Preserve minimalist front page**: No changes to index.md
+- **Create archival infrastructure**: Set up directory structure for media preservation
+- **Separate content from presentation**: Archive everything, display selectively
+- **Future flexibility**: Can always change display strategy later without losing content
+
+### Key Insight
+Archival work is separate from display decisions - preserve content without compromising design philosophy.
+
 ---
 
 *Comprehensive documentation of collaborative blog post development, covering technical implementation, philosophical refinement, and editorial decisions made during the process.*
